@@ -1,0 +1,1 @@
+ALTER TABLE  `wp_users` ADD  `role` ENUM(  'admin',  'teacher',  'student' ) NOT NULL DEFAULT  'student'
